@@ -1,0 +1,216 @@
+{
+  "E": {
+    "INVALID": {
+      "AUTH": "You need to login or register to see this page",
+      "CREDENTIAL": "The e-mail or the password you provided is incorrect. Please try again."
+    },
+    "INTERNAL_ERROR": "An error occured, but it's on us. Please report this through our contact form!",
+    "NOT_FOUND": "We could not find the ressource you asked for.",
+    "emailError": "Please enter a valid email address",
+    "emailInvalid": "Invalid email address",
+    "subjectError": "Subject is required",
+    "textError": "Text is required",
+    "passwordError": "Please enter a password",
+    "passwordLengthError": "Password must be at least 12 characters long",
+    "passwordLowerCaseError": "Password must contain at least one lowercase letter",
+    "passwordUpperCaseError": "Password must contain at least one uppercase letter",
+    "passwordNumberError": "Password must contain at least one number",
+    "passwordSpecialCharError": "Password must contain at least one special character",
+    "phoneNumberInvalid": "Phone number must be in the format : +33 6 00 00 00 00",
+    "phoneNumberError": "Please enter a phone number",
+    "nameError": "Please enter your name",
+    "basic": "Oops, Something wen't wrong",
+    "contact": "Unable to contact us at this time, please try again later"
+  },
+  "contact": {
+    "title": "Contact us",
+    "email": "E-mail*",
+    "subject": "Subject*",
+    "text": "Text*",
+    "send": "Send"
+  },
+  "login": {
+    "title": "Login",
+    "emailLabel": "E-mail*",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password*",
+    "passwordPlaceholder": "Enter your password",
+    "submit": "Submit",
+    "noAccount": "No account ?",
+    "registerLink": "Click here",
+    "forgottenPassword": "Forgot your password ?",
+    "newPassword": "Update your password :"
+  },
+  "register": {
+    "name": "Name",
+    "title": "Register",
+    "nameLabel": "Name*",
+    "namePlaceholder": "Name",
+    "emailLabel": "Email*",
+    "emailPlaceholder": "Email",
+    "passwordLabel": "Password*",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordLabel": "Confirm Password*",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "alreadyHaveAccount": "Already have an account ?",
+    "loginLink": "Login",
+    "submit": "Register",
+    "phoneNumberLabel": "Phone Number",
+    "phoneNumberPlaceholder": "+3360000000000"
+  },
+  "footer": {
+    "TermsOfService": "Terms of service",
+    "contact": "Contacts",
+    "legalInformation": "Legal Informations"
+  },
+  "header": {
+    "login": "Login",
+    "register": "Register",
+    "informations": "About Airnéis",
+    "account": "My account",
+    "orders": "My orders",
+    "logout": "Log out",
+    "search": "Search",
+    "basket": "Basket",
+    "menu": "Menu",
+    "termsOfService": "TOS",
+    "contact": "Contacts",
+    "legalInformation": "Legal Informations"
+  },
+  "user": {
+    "accountInfo": "User Informations",
+    "addressBook": "Address book",
+    "paymentBook": "Payment methods",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "password": "Password",
+    "address": "ADDRESS",
+    "payment": "PAYMENT",
+    "noUserFound": "No user found. Please login to access your information",
+    "confirmed": "Your account has been confirmed. You can now login.",
+    "confirmationLink": "Account confirmation",
+    "update": { "submit": "Submit" }
+  },
+  "category": {
+    "noCategoryFound": "Category {{categoryId}} not found"
+  },
+  "back-office": {
+    "addProduct": {
+      "title": "Product list",
+      "add": "Add a product",
+      "update": "Update a product",
+      "widthLabel": "Width",
+      "heightLabel": "Height",
+      "lengthLabel": "Length",
+      "addAProductLabel": "Add a product",
+      "imageNameLabel": "Image name",
+      "imageLabel": "Image",
+      "descriptionLabel": "Product description",
+      "productNameLabel": "Product Name",
+      "priceLabel": "Price",
+      "stockLabel": "Stock",
+      "dimensionsLabel": "Dimensions",
+      "categories": "Categories",
+      "validate": "Validate"
+    },
+    "materials": {
+      "title": "Materials List",
+      "add": "Add a material",
+      "update": "Update a material",
+      "materialName": "Name"
+    },
+    "dimensions": {
+      "title": "Dimensions List",
+      "add": "Add a dimension",
+      "update": "Update a dimension",
+      "height": "Height",
+      "width": "Width",
+      "length": "Length"
+    },
+    "categories": {
+      "title": "Categories List",
+      "add": "Add a category",
+      "update": "Update a category",
+      "name": "Name",
+      "description": "Description",
+      "slug": "Slug",
+      "imageUrl": "Image Url"
+    },
+    "images": {
+      "title": "Image List",
+      "add": "Add an Image",
+      "update": "Update an image"
+    },
+    "users": {
+      "title": "Users List"
+    }
+  },
+  "home": {
+    "slogan": "From the Highlands of Scotland, our furniture is immortal",
+    "pageNotFound": "Page not found"
+  },
+  "legal": {
+    "info": "The Airneis website is a school project, by students whose school is \" Sup de vinci\", located in \"Le CNIT, la défense, Paris\".",
+    "dev": "Developpers"
+  },
+  "CGU": {
+    "title": "Terms of services",
+    "body": "Terms of Service These Terms of Service (\"Agreement\") govern your use of the airneis website (\"Website\"), operated by airneis (\"Company\"). By accessing or using the Website, you agree to be bound by this Agreement. If you do not agree with any part of the Agreement, you should not use the Website. Acceptance of Terms By accessing or using the Website, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of this Agreement, as well as our Privacy Policy. If you do not agree to these terms, you may not use the Website. Description of Services airneis is an e-commerce platform that primarily sells furniture. The Website provides users with the ability to browse and purchase furniture products offered by the Company. The Company reserves the right to modify, suspend, or discontinue any aspect of the Website at any time without notice. Product Listings and Pricing The Company strives to provide accurate and up-to-date product listings, including descriptions, images, and prices. However, the Company does not guarantee the accuracy, completeness, or reliability of any product information on the Website. Prices are subject to change without notice, and the Company reserves the right to modify or cancel any order placed for products listed at an incorrect price. Ordering and Payment When placing an order through the Website, you agree to provide accurate, current, and complete information. You are responsible for maintaining the confidentiality of your account and password and for restricting access to your account. The Company reserves the right to refuse or cancel any order for any reason, including but not limited to limitations on quantities available for purchase, inaccuracies, or errors in product or pricing information. Shipping and Delivery The Company will make reasonable efforts to ensure timely delivery of products. However, shipping and delivery times may vary depending on various factors beyond the Company's control. The risk of loss and title for products pass to you upon our delivery to the carrier. You are responsible for inspecting products upon delivery and notifying the Company of any issues or damages within a reasonable timeframe. Returns and Refunds The Company accepts returns and provides refunds or replacements for eligible products within a specified period, subject to our Return Policy. You are responsible for return shipping costs unless otherwise stated in the Return Policy. Intellectual Property The Website and its original content, including but not limited to text, graphics, logos, images, audio clips, video clips, and software, are owned by the Company and protected by intellectual property laws. You may not reproduce, modify, distribute, display, or create derivative works of any material on the Website without the Company's prior written consent. Limitation of Liability In no event shall the Company be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with the use of the Website or the products sold through it. This includes, but is not limited to, damages for loss of profits, goodwill, use, data, or other intangible losses. Governing Law and Jurisdiction This Agreement shall be governed by and construed in accordance with the laws of Scotland. Any dispute arising out of or relating to this Agreement or the use of the Website shall be subject to the exclusive jurisdiction of the courts of Scotland. Modifications to Terms The Company reserves the right to modify or replace any part of this Agreement at its sole discretion. It is your responsibility to review this Agreement periodically for changes. Continued use of the Website after any modifications shall constitute your consent to such modifications. Contact Information If you have any questions or concerns about these Terms of Service, please contact us at: airneis 123 Fake Street Edinburgh, Scotland contact@airneis.com Please note that the above address is a fictitious address and is provided for illustrative purposes only. By using the airneis Website, you agree to comply with these Terms of Service."
+  },
+  "product": {
+    "stock": "In stock",
+    "noStock": "Out of stock",
+    "addProduct": "Add to cart",
+    "similarProducts": "Similar products",
+    "noSimilarProducts": "No similar product found",
+    "productAdded": "The product {{productName}} has been added to the cart",
+    "noProductFound": "Product not found",
+    "notEnoughStock": "Not enough stock",
+    "quantityInvalid": "Please enter a valid quantity",
+    "materials": "Materials",
+    "dimensions": {
+      "width": "Width",
+      "length": "Length",
+      "height": "Height",
+      "title": "Dimensions"
+    }
+  },
+  "cart": {
+    "title": "Your cart",
+    "noProduct": "No products in your cart",
+    "noCartFound": "Cart not found",
+    "payment": "Place the order",
+    "total": "Total",
+    "tva": "Including VAT (20%)"
+  },
+  "addresses": {
+    "create": {
+      "title": "Enter your address",
+      "fullnameLabel": "Fullname",
+      "fullnamePlaceholder": "Enter your fullname",
+      "streetNameLabel": "Address",
+      "streetNamePlaceholder": "Enter your address",
+      "zipcodeLabel": "Zip code",
+      "zipcodePlaceholder": "Enter your zipcode",
+      "cityLabel": "City",
+      "cityPlaceholder": "Enter your city",
+      "countryLabel": "Country",
+      "countryPlaceholder": "Enter your country",
+      "complementLabel": "Complement",
+      "submit": "Submit"
+    },
+    "title": "Select an address",
+    "add": "Create a new address",
+    "continue": "Continue"
+  },
+  "orders": {
+    "numberOrder": "Order no.",
+    "articles": "items",
+    "title": "My orders"
+  },
+  "order": {
+    "title": "Order no.{{orderId}}",
+    "address": "Delivery address"
+  }
+}

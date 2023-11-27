@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+.env
+.idea
+/package-lock.json
+# local env files
+.env*.local
+/tmp
+sendgrid.env

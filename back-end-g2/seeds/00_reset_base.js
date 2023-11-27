@@ -1,0 +1,18 @@
+export const seed = async (knex) => {
+  await knex("orders").del()
+  await knex("cart__products").del()
+  await knex("carts").del()
+  await knex("addresses").del()
+  await knex("product__categories").del()
+  await knex("product__images").del()
+  await knex("product__materials").del()
+  await knex("categories").del()
+  await knex("products").del()
+  await knex("user__roles").del()
+  await knex("users").del()
+  await knex("roles").del()
+  await knex("dimensions").del()
+  await knex("materials").del()
+  await knex("images").del()
+  await knex("carousel").del()
+}

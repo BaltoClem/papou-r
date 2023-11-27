@@ -1,0 +1,52 @@
+name: CI
+on: push
+defaults:
+  run:
+    working-directory: back-end-g2
+env:
+  DB__CLIENT: pg
+  DB__PORT: 5432
+  DB__HOST: localhost
+  DB__USER: pg
+  DB__PASSWORD: pg
+  DB__DATABASE: airneis
+  JWT_SECRET: fakejwt
+  PASSWORD_PEPPER: pepper
+  ADMIN_PASSWORD: S3cur3Passw0rdForTesting!
+  USER_PASSWORD: AnotherS3cur3Pw!!
+  SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+  MAIL_SEND_GRID: ${{ secrets.MAIL_SEND_GRID }}
+  AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }}
+  AWS_BUCKET_REGION: ${{ secrets.AWS_BUCKET_REGION }}
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID}}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY  }}
+  FRONT_URL: ${{ secrets.FRONT_URL  }}
+
+
+jobs:
+  run-backend-tests:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres
+
+        env:
+          POSTGRES_PASSWORD: pg
+          POSTGRES_USER: pg
+          POSTGRES_DB: airneis
+
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install modules
+        run: npm ci
+      - name: Run tests
+        run: npm test

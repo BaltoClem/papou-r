@@ -1,0 +1,214 @@
+{
+  "E": {
+    "INVALID": {
+      "AUTH": "Veuillez vous connecter ou vous créer un compte pour accéder à cette page",
+      "CREDENTIAL": "Le mot de passe ou l'email que vous avez saisi n'est pas correct.."
+    },
+    "INTERNAL_ERROR": "Une erreur interne s'est produite, merci d'envoyer un message via notre formulaire de contact!",
+    "NOT_FOUND": "Nous n'avons pas pu trouver ce que vous cherchiez.",
+    "emailError": "Veuillez fournir une adresse email valide",
+    "emailInvalid": "Adresse email invalide",
+    "subjectError": "Sujet requis",
+    "textError": "Texte requis",
+    "passwordError": "Veuillez entrer un mot de passe",
+    "passwordLengthError": "Le mot de passe doit comporter au moins 12 caractères",
+    "passwordLowerCaseError": "Le mot de passe doit contenir au moins une lettre minuscule",
+    "passwordUpperCaseError": "Le mot de passe doit contenir au moins une lettre majuscule",
+    "passwordNumberError": "Le mot de passe doit contenir au moins un chiffre",
+    "passwordSpecialCharError": "Le mot de passe doit contenir au moins un caractère spécial",
+    "phoneNumberInvalid": "Le numéro de téléphone doit être sous la forme: +33 6 00 00 00 00",
+    "phoneNumberError": "Veuillez entrer un numéro de téléphone",
+    "nameError": "Veuillez entrer votre nom",
+    "INVALID_CREDENTIAL": "L'e-mail ou le mot de passe est incorrect. Veuillez recommencer",
+    "basic": "Oups, quelque chose s'est mal passé",
+    "contact": "Impossible de nous contacter pour le moment, veuillez réessayer plus tard"
+  },
+  "login": {
+    "title": "Connexion",
+    "emailLabel": "E-mail*",
+    "emailPlaceholder": "E-mail",
+    "passwordLabel": "Mot de passe*",
+    "passwordPlaceholder": "Mot de passe",
+    "submit": "Se connecter",
+    "noAccount": "Pas de compte ?",
+    "registerLink": "Inscrivez-vous",
+    "forgottenPassword": "Mot de passe oublié ?",
+    "newPassword": "Changez votre mot de passe :"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "email": "E-mail*",
+    "subject": "Sujet*",
+    "text": "Texte*",
+    "send": "Envoyer"
+  },
+  "register": {
+    "name": "Nom",
+    "title": "Inscription",
+    "nameLabel": "Nom*",
+    "namePlaceholder": "Nom",
+    "emailLabel": "E-mail*",
+    "emailPlaceholder": "E-mail",
+    "passwordLabel": "Mot de passe*",
+    "passwordPlaceholder": "Mot de passe",
+    "confirmPasswordLabel": "Confirmer le mot de passe*",
+    "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+    "alreadyHaveAccount": "Déjà un compte ?",
+    "loginLink": "Connectez-vous",
+    "submit": "S'inscrire",
+    "phoneNumberLabel": "Numéro de téléphone",
+    "phoneNumberPlaceholder": "+3360000000000"
+  },
+  "footer": {
+    "TermsOfService": "CGU",
+    "contact": "Contacts",
+    "legalInformation": "Mentions Légales"
+  },
+  "header": {
+    "login": "Connexion",
+    "subscription": "Inscription",
+    "informations": "A propos d'Airnéis",
+    "account": "Mon compte",
+    "orders": "Mes commandes",
+    "logout": "Déconnexion",
+    "search": "Recherche",
+    "basket": "Panier",
+    "menu": "Menu",
+    "termsOfService": "CGU",
+    "contact": "Contacts",
+    "legalInformation": "Mentions légales"
+  },
+  "user": {
+    "accountInfo": "Informations de l'utilisateur",
+    "addressBook": "Carnet d'adresses",
+    "paymentBook": "Méthodes de paiements",
+    "fullName": "Nom complet",
+    "email": "Email",
+    "phoneNumber": "Numéro de téléphone",
+    "password": "Mot de passe",
+    "address": "ADRESSE",
+    "payment": "PAIEMENT",
+    "noUserFound": "Pas d'utilisateur trouvé. Merci de vous connecter pour accéder à vos informations",
+    "confirmed": "Votre compte a bien été confirmé, vous pouvez maintenant vous connecter.",
+    "confirmationLink": "Confirmation du compte",
+    "update": {
+      "submit": "Enregistrer"
+    }
+  },
+  "category": {
+    "noCategoryFound": "Catégorie {{categoryId}} introuvable"
+  },
+  "back-office": {
+    "addProduct": {
+      "widthLabel": "Largeur",
+      "heightLabel": "Hauteur",
+      "addAProductLabel": "Ajouter un produit",
+      "imageNameLabel": "Nom de l'image",
+      "imageLabel": "Image",
+      "descriptionLabel": "Description du produit",
+      "productNameLabel": "Nom du produit",
+      "priceLabel": "Prix",
+      "stockLabel": "Stock",
+      "dimensionsLabel": "Dimensions",
+      "categories": "Catégories",
+      "validate": "Valider"
+    },
+    "materials": {
+      "title": "Liste des matériaux",
+      "add": "Ajouter un matériau",
+      "update": "Mettre à Jour un matériau",
+      "materialName": "Nom du matériau"
+    },
+    "dimensions": {
+      "title": "Liste des dimensions",
+      "add": "Ajouter une dimension",
+      "update": "Mettre à Jour une dimension",
+      "height": "Hauteur",
+      "width": "Largeur",
+      "length": "Longueur"
+    },
+    "categories": {
+      "title": "Liste des catégories",
+      "add": "Ajouter une catégorie",
+      "update": "Mettre à jour une categorie",
+      "name": "Nom",
+      "description": "Description",
+      "slug": "Slug"
+    },
+    "images": {
+      "title": "Liste des images",
+      "add": "Ajouter une image",
+      "update": "Mettre à Jour une image"
+    },
+    "users": {
+      "title": "Liste des utilisteurs"
+    }
+  },
+  "home": {
+    "slogan": "Venant des hautes terres d'Écosse, nos meubles sont immortels",
+    "pageNotFound": "Page introuvable"
+  },
+  "CGU": {
+    "title": "Conditions générales d'Utilisation",
+    "body": "Ces Conditions Générales d'Utilisation (\"Accord\") régissent votre utilisation du site web airneis (\"Site\"), exploité par airneis (\"Société\"). En accédant ou en utilisant le Site, vous acceptez d'être lié par cet Accord. Si vous n'êtes pas d'accord avec une partie de l'Accord, vous ne devez pas utiliser le Site. Acceptation des condition En accédant ou en utilisant le Site, vous reconnaissez avoir lu, compris et accepté d'être lié par les termes et conditions de cet Accord, ainsi que par notre Politique de confidentialité. Si vous n'acceptez pas ces termes, vous ne pouvez pas utiliser le Site Description des service airneis est une plateforme de commerce électronique qui vend principalement du mobilier. Le Site permet aux utilisateurs de naviguer et d'acheter des produits de mobilier proposés par la Société. La Société se réserve le droit de modifier, suspendre ou interrompre tout aspect du Site à tout moment sans préavis Annonces de produits et tarificatio La Société s'efforce de fournir des annonces de produits précises et à jour, y compris des descriptions, des images et des prix. Cependant, la Société ne garantit pas l'exactitude, l'exhaustivité ou la fiabilité des informations sur les produits figurant sur le Site. Les prix peuvent être modifiés sans préavis, et la Société se réserve le droit de modifier ou d'annuler toute commande passée pour des produits affichés à un prix incorrect Commande et paiemen Lorsque vous passez une commande sur le Site, vous acceptez de fournir des informations précises, à jour et complètes. Vous êtes responsable de la confidentialité de votre compte et de votre mot de passe, ainsi que de la restriction de l'accès à votre compte. La Société se réserve le droit de refuser ou d'annuler toute commande pour quelque raison que ce soit, notamment en cas de quantités limitées disponibles à l'achat, d'inexactitudes ou d'erreurs dans les informations sur les produits ou les prix Expédition et livraiso La Société fera des efforts raisonnables pour assurer une livraison rapide des produits. Cependant, les délais d'expédition et de livraison peuvent varier en fonction de divers facteurs indépendants de la Société. Le risque de perte et le titre des produits vous sont transférés dès notre livraison au transporteur. Vous êtes responsable de l'inspection des produits à la livraison et de la notification à la Société de tout problème ou dommage dans un délai raisonnable Retours et remboursement La Société accepte les retours et fournit des remboursements ou des remplacements pour les produits éligibles dans un délai spécifié, sous réserve de notre Politique de retour. Vous êtes responsable des frais de retour, sauf indication contraire dans la Politique de retour Propriété intellectuell Le Site et son contenu original, y compris, mais sans s'y limiter, le texte, les graphiques, les logos, les images, les clips audio, les clips vidéo et les logiciels, appartiennent à la Société et sont protégés par les lois sur la propriété intellectuelle. Vous ne pouvez pas reproduire, modifier, distribuer, afficher ou créer des œuvres dérivées de tout contenu du Site sans le consentement écrit préalable de la Société Limitation de responsabilit En aucun cas la Société ne pourra être tenue responsable de tout dommage direct, indirect, accessoire, spécial ou consécutif découlant de l'utilisation du Site ou des produits vendus via celui-ci. Cela comprend, sans s'y limiter, les dommages résultant de la perte de bénéfices, de la réputation, de l'utilisation, des données ou d'autres pertes immatérielles Loi applicable et juridictio Cet Accord est régi par les lois de l'Écosse et sera interprété conformément à celles-ci. Tout litige découlant de cet Accord ou de l'utilisation du Site sera soumis à la compétence exclusive des tribunaux de l'Écosse Modifications des condition La Société se réserve le droit de modifier ou de remplacer toute partie de cet Accord à sa seule discrétion. Il est de votre responsabilité de consulter périodiquement cet Accord pour prendre connaissance des modifications. L'utilisation continue du Site après toute modification constitue votre consentement à de telles modifications Informations de contac Si vous avez des questions ou des préoccupations concernant ces Conditions Générales d'Utilisation, veuillez nous contacter à :"
+  },
+  "legal": {
+    "info": "Le site Airneis est un projet étudiant, dont l'école \"Sup de vinci\" est située au CNIT, à la Défense.",
+    "dev": "Développeurs"
+  },
+  "product": {
+    "stock": "En stock",
+    "noStock": "Hors stock",
+    "addProduct": "Ajouter au panier",
+    "similarProducts": "Produits similaires",
+    "noSimilarProducts": "Aucun produit similaire trouvé",
+    "productAdded": "Le produit {{productName}} a été ajouté au panier",
+    "noProductFound": "Produit introuvable",
+    "notEnoughStock": "Stock insuffisant",
+    "quantityInvalid": "Merci d'entrer une quantité valide",
+    "materials": "Les matériaux",
+    "dimensions": {
+      "width": "Largeur",
+      "length": "Profondeur",
+      "height": "Hauteur",
+      "title": "Les dimensions"
+    },
+    "cart": {
+      "title": "Votre panier",
+      "noProduct": "Aucun produit dans votre panier",
+      "noCartFound": "Panier introuvable",
+      "payment": "Passer la commande",
+      "total": "Total",
+      "tva": "Dont TVA (20%)"
+    }
+  },
+  "addresses": {
+    "create": {
+      "title": "Entrer votre adresse",
+      "fullnameLabel": "Nom complet",
+      "fullnamePlaceholder": "Entrer votre nom et prénom",
+      "streetNameLabel": "Adresse postale",
+      "streetNamePlaceholder": "Entrer votre adresse postale",
+      "zipcodeLabel": "Code postal",
+      "zipcodePlaceholder": "Entrer votre code postal",
+      "cityLabel": "Ville",
+      "cityPlaceholder": "Entrer votre ville",
+      "countryLabel": "Pays",
+      "countryPlaceholder": "Entrer votre pays",
+      "complementLabel": "Complément",
+      "submit": "Enregistrer"
+    },
+    "title": "Sélectionner une adresse",
+    "add": "Créer une nouvelle adresse",
+    "continue": "Continuer"
+  },
+  "orders": {
+    "numberOrder": "Commande n°",
+    "articles": "articles",
+    "title": "Mes commandes"
+  },
+  "order": {
+    "title": "Commande n°{{orderId}}",
+    "address": "Adresse de livraison"
+  }
+}

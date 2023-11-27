@@ -1,0 +1,201 @@
+{
+  "E": {
+    "emailError": "Cuir seachad seòladh post-d ceart",
+    "emailInvalid": "Cuir seachad seòladh post-d ceart",
+    "subjectError": "Feumaidh tu cùis a thoirt seachad",
+    "textError": "Feumaidh tu tèacs a thoirt seachad",
+    "passwordError": "Cuir fhacal-faire a-steach",
+    "passwordLengthError": "Feumaidh a' phàs-faire a bhith nas fhaide na 12 caracairean",
+    "passwordLowerCaseError": "Feumaidh a' phàs-faire a bhith aig mu dheireadh aon litir ìosal",
+    "passwordUpperCaseError": "Feumaidh a' phàs-faire a bhith aig mu dheireadh aon litir àrd",
+    "passwordNumberError": "Feumaidh a' phàs-faire a bhith aig mu dheireadh aon àireamh",
+    "passwordSpecialCharError": "Feumaidh a' phàs-faire a bhith aig mu dheireadh aon caractar sònraichte",
+    "phoneNumberInvalid": "Feumaidh an àireamh fòn a bhith san fhoirm : +33 6 00 00 00 00",
+    "phoneNumberError": "Feuch an cuir thu a-steach àireamh fòn",
+    "nameError": "Cuir d' ainm a-steach",
+    "INVALID_CREDENTIAL": "Tha am post-d neo am facal-faire ceàrr. Feuch ris a-rithist",
+    "basic": "Oops, cha deach rudeigin ceàrr",
+    "contact": "Chan urrainn dhuinn fios a chur thugainn aig an àm seo, feuch ris a-rithist nas fhaide air adhart"
+  },
+  "contact": {
+    "title": "Cuir fios thugainn",
+    "email": "Post-d",
+    "subject": "Cùis*",
+    "text": "Tèacs*",
+    "send": "Cuir"
+  },
+  "legal": {
+    "info": "The Airneis website is a school project, by students whose school is \" Sup de vinci\", located in \"Le CNIT, la défense, Paris\".",
+    "dev": "Der"
+  },
+  "login": {
+    "title": "Log a-steach",
+    "emailLabel": "Post-d*",
+    "emailPlaceholder": "Cuir d' phost-d a-steach",
+    "passwordLabel": "Facal-faire*",
+    "passwordPlaceholder": "Cuir d' fhacal-faire a-steach",
+    "submit": "Cuir thugainn",
+    "noAccount": "Chan eil cunntas agad fhathast?",
+    "registerLink": "Briog an seo",
+    "forgottentPassword": "Na dhìochuimhnich thu am facal-faire agad?",
+    "newPassword": "Deach an Facal-faire :"
+  },
+  "register": {
+    "name": "Ainm",
+    "title": "Clàr",
+    "nameLabel": "Ainm*",
+    "namePlaceholder": "Ainm",
+    "emailLabel": "Post-d*",
+    "emailPlaceholder": "Post-d",
+    "passwordLabel": "Facal-faire*",
+    "passwordPlaceholder": "Facal-faire",
+    "confirmPasswordLabel": "Cuir an fhacal-faire a-rithist a-steach*",
+    "confirmPasswordPlaceholder": "Cuir an fhacal-faire a-rithist a-steach",
+    "alreadyHaveAccount": "Tha cunntas agad mu thràth?",
+    "loginLink": "Log a-steach",
+    "submit": "Clàraich",
+    "phone_number_label": "Àireamh fòn",
+    "phone_number_placeholder": "+3360000000000"
+  },
+  "footer": {
+    "TermsOfService": "Teirmeanasan Seirbheis",
+    "contact": "Còmhraidhean",
+    "legalInformation": "Fiosrachadh Lagha"
+  },
+  "header": {
+    "login": "Log a-steach",
+    "subscription": "Fo-sgrìobhadh",
+    "informations": "Mu Airnéis",
+    "account": "Mo chunntas",
+    "orders": "M' òrduighean",
+    "logout": "Log a-mach",
+    "search": "Rannsaich",
+    "basket": "Basgaid",
+    "menu": "Clàr-taice",
+    "termsOfService": "Teirmean seirbheis",
+    "contact": "Fiosaichean",
+    "legalInformation": "fiosrachadh laghail"
+  },
+  "user": {
+    "accountInfo": "Fiosrachadh cleachdaiche",
+    "addressBook": "Leabhar Seòladh",
+    "paymentBook": "Dòighean pàighidh",
+    "fullName": "Ainm Làn",
+    "email": "Post-d",
+    "phoneNumber": "Àireamh fòn",
+    "password": "Pasword",
+    "address": "SEÒLADH",
+    "payment": "PÀIGHIDH",
+    "noUserFound": "Cha deach cleachdaiche a lorg. Feuch an log thu a-steach gus am fiosrachadh agad fhaighinn",
+    "confirmationLink": "Dearbhadh cunntais",
+    "update": { "submit": "Cuir a-steach" }
+  },
+  "category": {
+    "noCategoryFound": "Roinn {{categoryId}} nach deach a lorg"
+  },
+  "back-office": {
+    "addProduct": {
+      "widthLabel": "Leud",
+      "heightLabel": "Airde",
+      "addAProductLabel": "Add a product",
+      "imageNameLabel": "Cuir toradh ris",
+      "imageLabel": "Dealbh",
+      "descriptionLabel": "Tuairisgeul toraidh",
+      "productNameLabel": "Ainm toraidh",
+      "priceLabel": "Pris",
+      "stockLabel": "Stoc",
+      "dimensionsLabel": "Meudan",
+      "categories": "Roinnean-seòrsa",
+      "validate": "Dearbhaich"
+    },
+    "materials": {
+      "title": "Liosta de stuthan",
+      "add": "Cuir stuth ris",
+      "update": "Ùraich stuth",
+      "materialName": "ainm stuth"
+    },
+    "dimensions": {
+      "title": "Clàr meud",
+      "add": "cuir meud",
+      "update": "Luchdaich a-nuas am meud",
+      "height": "Àirde",
+      "width": "Leud",
+      "length": "Fad"
+    },
+    "categories": {
+      "title": "Liosta de na roinnean-seòrsa a",
+      "add": "Cuir roinn-seòrsa ris",
+      "update": "Luchdaich a-nuas an roinn-seòrsa",
+      "name": "Ainm",
+      "description": "Tuairisgeul",
+      "slug": "Slug"
+    },
+    "images": {
+      "title": "Liosta de dhealbhan",
+      "add": "cuir dealbh ris",
+      "update": "Luchdaich a-nuas an dealbh"
+    },
+    "users": {
+      "title": "Liosta de luchd-cleachdaidh"
+    }
+  },
+  "home": {
+    "slogan": "A' tighinn à Gàidhealtachd na h-Alba, tha an àirneis againn neo-bhàsmhor",
+    "pageNotFound": "Cha deach duilleag a lorg"
+  },
+  "product": {
+    "stock": "Anns a’ bhùth",
+    "noStock": "Chan eil e sa bhùth",
+    "addProduct": "Cuir ris a’ Chart",
+    "similarProducts": "Bathar coltach ris",
+    "noSimilarProducts": "Cha deach toradh coltach ris a lorg",
+    "productAdded": "Chaidh toradh {{productName}} a chuir ris a’ chairt",
+    "noProductFound": "Cha deach toradh a lorg",
+    "notEnoughStock": "Meud gu leòr",
+    "quantityInvalid": "Feuch an cuir thu a-steach àireamh dligheach",
+    "materials": "Na stuthan",
+    "dimensions": {
+      "width": "Doimhneachd",
+      "length": "Leud",
+      "height": "Àirde",
+      "title": "Na meudan"
+    }
+  },
+  "cart": {
+    "title": "Do chairt",
+    "noProduct": "Chan eil bathar sam bith anns a’ chairt bhùthan agad",
+    "noCartFound": "Cha deach cairt a lorg",
+    "payment": "A chur an òrdugh",
+    "total": "Iomlan",
+    "tva": "A’ gabhail a-steach VAT (20%)"
+  },
+  "addresses": {
+    "create": {
+      "title": "Cuir a-steach do sheòladh",
+      "fullnameLabel": "Làn ainm",
+      "fullnamePlaceholder": "Cuir a-steach d’ ainm slàn",
+      "streetNameLabel": "Seòladh",
+      "streetNamePlaceholder": "Cuir a-steach do sheòladh",
+      "zipcodeLabel": "Còd zip",
+      "zipcodePlaceholder": "Cuir a-steach an còd-puist agad",
+      "cityLabel": "Cathair-bhaile",
+      "cityPlaceholder": "Cuir a-steach do bhaile-mòr",
+      "countryLabel": "Dùthaich",
+      "countryPlaceholder": "Cuir a-steach do dhùthaich",
+      "complementLabel": "A' cur ris",
+      "submit": "Cuir a-steach"
+    },
+    "title": "Tagh seòladh",
+    "add": "Cruthaich seòladh ùr",
+    "continue": "Lean air adhart"
+  },
+  "orders": {
+    "numberOrder": "Òrdugh àireamh.",
+    "articles": "nithean",
+    "title": "Na h-òrdughan agam"
+  },
+  "order": {
+    "title": "Òrdugh àireamh.{{orderId}}",
+    "address": "Seòladh lìbhrigidh"
+  }
+}
